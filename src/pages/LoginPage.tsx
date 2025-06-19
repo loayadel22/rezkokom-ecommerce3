@@ -235,7 +235,7 @@ const LoginPage: React.FC = () => {
                 </div>
               </div>
 
-              <div className="mt-6">
+{/*               <div className="mt-6">
                 <button
                   type="button"
                   className="w-full inline-flex justify-center py-3 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
@@ -248,7 +248,7 @@ const LoginPage: React.FC = () => {
                   Sign in with Google
                 </button>
               </div>
-            </div>
+            </div> */}
 
             <p className="mt-2 text-center text-sm text-gray-600">
               Don't have an account?{' '}
