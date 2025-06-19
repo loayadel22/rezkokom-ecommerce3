@@ -111,7 +111,7 @@ const SignupPage: React.FC = () => {
 
       if (data.success) {
         // Successful registration - redirect to activation page
-        window.location.href = `/activation?email=${encodeURIComponent(
+        window.location.href = `/login?email=${encodeURIComponent(
           formData.email
         )}`;
       } else {
@@ -326,7 +326,7 @@ const SignupPage: React.FC = () => {
                 </div>
               </div>
 
-              <div className="mt-6">
+{/*               <div className="mt-6">
                 <button
                   type="button"
                   className="w-full inline-flex justify-center py-3 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
@@ -340,7 +340,7 @@ const SignupPage: React.FC = () => {
                 </button>
               </div>
             </div>
-
+ */}
             <p className="mt-2 text-center text-sm text-gray-600">
               Already have an account?{' '}
               <a
